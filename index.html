@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+<link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="box">
+  
+        <form action="" method="get">
+          
+                <h1 class="heading">Contact Form</h1>
+          
+          
+           
+            <p>Please fill your Information</p>
+            <p>Your Name: * &emsp;&ensp;<input type="text" name="username" placeholder="Your full name"required></p>
+            <fieldset>
+                <legend>Gender *</legend>
+                <p>
+                    Male <input type="radio" name="gender" id="male" required>
+                    &emsp;&ensp;&emsp;FeMale <input type="radio" name="gender" id="female" required>
+                    &emsp;&ensp;&emsp;Others <input type="radio" name="gender" id="others" required>
+                </p>
+            </fieldset>
+                <p>
+                    Email: *&emsp;&emsp;&ensp; <input type="email" name="email" id="email" placeholder="Valid email id" required>
+                </p>
+                <p>
+                    Phone: * &emsp;&emsp;&ensp;<input type="number" name="phone" placeholder="Enter mobile" id="phone" required>
+                </p>
+                <p>
+                    Messege Subject: *
+                    <select name="messege_sub" id="messege_sub" required>
+                    <option value="">---select a messege type---</option>
+                    <option value="job">Job Inquiry</option>
+                    <option value="service">Service Issue</option>
+                    <option value="work">Want to work with us</option>
+                    <option value="student">Student corner</option>
+                    <option value="bugg">report a bugg</option>
+                </select>
+                </p>
+                <p>
+                    Your messege:
+                    <textarea name="messege" id="messege" cols="82" rows="10" placeholder="Your messege to us" required></textarea>
+                </p>
+                
+                <div class="button">
+                    <input type="submit" value="Submit">
+                </div>
+        </form>
+    </div>
+</body>
+</html>
